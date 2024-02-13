@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 1 -->
+<svg x="0" y="0" width="935" height="1210" viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+<clipPath id="c_1"><path d="M0,0H935V1210H0Z"/></clipPath>
+<clipPath id="c0_1"><path d="M0,1210V0H935V1210Z"/></clipPath>
+
+<style type="text/css"><![CDATA[
+text { white-space: pre; }
+path, image { pointer-events: none; }
+
+.s0_1{
+font-size: 21.39px;
+font-family: DejaVuSans-Bold_i;
+fill: #000;
+}
+.s1_1{
+font-size: 24.44px;
+font-family: DejaVuSans-Bold_i;
+fill: #000;
+}
+.s2_1{
+font-size: 21.39px;
+font-family: DejaVuSans-Bold_i_1;
+fill: #000;
+}
+.s3_1{
+font-size: 21.39px;
+font-family: DejaVuSans-Bold_i_2;
+fill: #000;
+}
+.s4_1{
+font-size: 21.39px;
+font-family: DejaVuSans-Bold_i_3;
+fill: #000;
+}
+.s5_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i;
+fill: #000;
+}
+.s6_1{
+font-size: 18.33px;
+font-family: DejaVuSans_d;
+fill: #000;
+}
+.s7_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_4;
+fill: #000;
+}
+.s8_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_1;
+fill: #000;
+}
+.s9_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_2;
+fill: #000;
+}
+.sa_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_5;
+fill: #000;
+}
+.sb_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_3;
+fill: #000;
+}
+.sc_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_6;
+fill: #000;
+}
+.sd_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_7;
+fill: #000;
+}
+.se_1{
+font-size: 16.81px;
+font-family: DejaVuSans-Bold_i;
+fill: #000;
+}
+.sf_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_8;
+fill: #000;
+}
+.sg_1{
+font-size: 21.39px;
+font-family: Carlito-Bold_s;
+fill: #000;
+}
+.sh_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_9;
+fill: #000;
+}
+.si_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_10;
+fill: #000;
+}
+.sj_1{
+font-size: 18.33px;
+font-family: DejaVuSans-Bold_i_11;
+fill: #000;
+}
+.sk_1{
+font-size: 18.33px;
+font-family: Carlito-Bold_s;
+fill: #000;
+}
+
+.g0_1{
+fill: #83C78E;
+}
+.g1_1{
+fill: none;
+stroke: #000;
+stroke-width: 0.763;
+stroke-linejoin: round;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,1210
+L935,1210
+L935,0 Z " 
+fill="#FFFFFF" stroke="none"/>
+<g clip-path="url(#c_1)">
+<path fill-rule="evenodd" d="M55,280.3H450.5V251.2H55v29.1Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M450.5,280.3H851V251.2H450.5v29.1Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M55,685.1H450.5V656H55v29.1Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M55,791.5H450.5V765.9H55v25.6Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M55,915.1H450.5V857.4H55v57.7Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M450.5,1047.2H851v-43.4H450.5v43.4Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M55,280.3H450.5V251.2H55v29.1Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M450.5,280.3H851V251.2H450.5v29.1Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M55,685.1H450.5V656H55v29.1Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M55,791.5H450.5V765.9H55v25.6Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M55,915.1H450.5V857.4H55v57.7Z" class="g0_1"/>
+<path fill-rule="evenodd" d="M450.5,1047.2H851v-43.4H450.5v43.4Z" class="g0_1"/>
+<path d="M54.6,27.9H267m-.8,21.4H851.5M266.2,99.8H851.5M266.2,150.4H851.5M266.2,201H851.5M54.6,251.5H851.5M54.6,280.7H851.5M54.6,324.3H851.5M54.6,367.8H851.5M54.6,411.4H851.5M54.6,433.5H450.9M54.6,477H450.9M54.6,520.6H450.9M54.6,547.2H450.9M54.6,569.3H450.9M54.6,612.9H450.9M54.6,656.4H450.9M54.6,685.6H450.9M54.6,729.1H450.9M54.6,766.3H450.9M54.6,791.9H450.9M54.6,825.5H450.9M54.6,857.8H450.9M54.6,915.5H450.9M54.6,937.7H450.9M54.6,959.8H450.9M54.6,982H450.9M54.6,1004.1H851.5M54.6,1047.7H851.5M54.6,1093.2H851.5M55,27.5V1093.6M168.8,280.3V656.8m0,134.7v66.7m13.6,56.9v178.5M210.1,685.2v81.4M266.6,27.5V251.9m53.5,28.4V613.2m6.8,301.9v178.5M341.5,791.5v66.7m23.8,-173v81.4M450.5,48.9V1093.6M588,280.3V411.7M732.6,48.9v203m0,28.4V411.7M851.1,48.9V1093.6" class="g1_1"/>
+<g clip-path="url(#c0_1)">
+<text x="275" y="69.5" dx="0,0,0,0,0,0,.1,0,0,-.1,0,-.1,0" class="s0_1">Asking Salary </text>
+<text x="557.6" y="72.3" class="s1_1">1000 </text>
+<text x="764" y="69.5" class="s0_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">لمعاش</text>
+<text x="836" y="69.5" class="s2_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+<text x="779" y="94.4" class="s2_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> الشهر</text>
+<text x="275" y="120.1" dx="0,.1,0,0,0,0,0,0" class="s0_1">Position </text>
+<text x="510.6" y="122.8" dx="0,0,0,0,0,0,-.1,0,0,0" class="s1_1">House maid </text>
+<text x="807.3" y="120.1" class="s2_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> نوع</text>
+<text x="757.3" y="145" class="s2_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> الوظيفة</text>
+<text x="275" y="170.7" dx="0,0,0,0,0,0,-.1,0" class="s0_1">Contract </text>
+<text x="534.1" y="173.4" class="s1_1">2 YEARS </text>
+<text x="796.3" y="170.7" class="s2_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> مدت</text>
+<text x="788.2" y="195.6" class="s3_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> العقد</text>
+<text x="275" y="221.2" dx="0,0,0,0,0,-.1,0,-.1,0,.1" class="s0_1">Full Name </text>
+<text x="782.4" y="221.2" class="s3_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">سم</text>
+<text x="820.1" y="221.2" class="s0_1"></text>
+<text x="836" y="221.2" class="s2_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+<text x="775.2" y="246.1" class="s4_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">كامل</text>
+<text x="828" y="246.1" class="s2_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ال</text>
+<text x="107.6" y="274.5" dx="0,0,-.1,0,0,0,0,0,0,0,0,-.1,0,0,0,0,0,-.1,0,0" class="s1_1">Personal Information </text>
+<text x="458.9" y="274.5" dx="0,0,0,0,0,.1,0,0,0,0,-.1,0,-.1,0,0,0" class="s1_1">Passport details </text>
+<text x="63.4" y="298.2" dx="0,-.1,0,-.1,0,.1,-.1,0,0" class="s5_1">Nationali </text>
+<text x="63.4" y="319.6" dx="0,-.1" class="s5_1">ty </text>
+<text x="201.4" y="298.2" dx="0,0,0,0,0,-.1,0,0,.1" class="s6_1">Ethiopian </text>
+<text x="371.7" y="298.2" class="s7_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> الجنسية</text>
+<text x="458.9" y="298.2" dx="0,0,0,-.1,-.1,0,-.1,0,.2" class="s5_1">Passport </text>
+<text x="458.9" y="319.6" dx="0,-.1" class="s5_1">No </text>
+<text x="745.3" y="298.2" class="s5_1">&gt; </text>
+<text x="745.6" y="298.2" class="s7_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> رقم الجواز</text>
+<text x="63.4" y="341.8" dx="0,-.1,-.1,0,0,0,0,.1,.1" class="s5_1">Religion </text>
+<text x="387.3" y="341.8" class="s5_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">لديانة</text>
+<text x="436.5" y="341.8" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+<text x="458.9" y="341.8" dx="0,0,0,-.1,.1,-.1,-.1,.1" class="s5_1">Date of </text>
+<text x="458.9" y="363.2" dx="0,0,-.1,-.1,.1,.1" class="s5_1">issue </text>
+<text x="799" y="341.8" class="s5_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> تاريخ</text>
+<text x="778.4" y="363.2" class="s9_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">صدار</text>
+<text x="823.5" y="363.2" class="s5_1"></text>
+<text x="837.1" y="363.2" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+<text x="63.4" y="385.3" dx="0,0,0,-.1" class="s5_1">Age </text>
+<text x="395.5" y="385.3" class="sa_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> العمر</text>
+<text x="458.9" y="385.3" dx="0,0,0,-.1,.1,-.1,-.1,.1" class="s5_1">Date of </text>
+<text x="458.9" y="406.7" dx="0,-.1,-.1,0,0,0,.3" class="s5_1">expiry </text>
+<text x="799" y="385.3" class="s5_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> تاريخ</text>
+<text x="780.8" y="406.7" class="sb_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">نتهاء</text>
+<text x="823.5" y="406.7" class="s5_1"></text>
+<text x="837.1" y="406.7" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+<text x="63.4" y="428.8" dx="0,-.1,0,0,-.1,.2,0,0,0" class="s5_1">Birth day </text>
+<text x="386.5" y="428.8" class="sb_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">د</text>
+<text x="396" y="428.8" class="s5_1"></text>
+<text x="409.9" y="428.8" class="sa_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> المي</text>
+<text x="63.4" y="451" dx="0,-.1,0,0,-.1,.2" class="s5_1">Birth </text>
+<text x="63.4" y="472.4" dx="0,0,0,0,0,.1" class="s5_1">place </text>
+<text x="335.7" y="451" class="sb_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">د</text>
+<text x="345.1" y="451" class="s5_1"></text>
+<text x="359" y="451" class="sa_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">ن المي</text>
+<text x="413.8" y="451" class="sb_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> مكا</text>
+<text x="63.4" y="494.5" dx="0,0,0,0,0,.1" class="s5_1">Civil </text>
+<text x="63.4" y="515.9" dx="0,-.1,-.1,0,-.1,.1,.1" class="s5_1">status </text>
+<text x="208.5" y="494.5" class="s6_1">SINGILE </text>
+<text x="383.3" y="494.5" class="sc_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">لحالت</text>
+<text x="436.5" y="494.5" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+<text x="352" y="515.9" class="sd_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">جتماعية</text>
+<text x="422.9" y="515.9" class="s5_1"></text>
+<text x="436.5" y="515.9" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+<text x="63.4" y="538.1" dx="0,-.1,-.1,0,0" class="s5_1">Heigt </text>
+<text x="384.4" y="538.1" class="sd_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">طول</text>
+<text x="429.6" y="538.1" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ال</text>
+<text x="63.4" y="564.5" dx="0,-.1,-.1,0,0,-.1,.2" class="s5_1">Weight </text>
+<text x="392" y="564.5" class="s9_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> الوزن</text>
+<text x="63.4" y="586.7" dx="0,0,0,-.1,0,0,-.1,0" class="s5_1">Educatio </text>
+<text x="63.4" y="608.1" dx="0,.1" class="s5_1">n </text>
+<text x="181.8" y="585.3" dx="0,0,0,0,-.1,0,0,0,0,0" class="se_1">ELEMENTARY </text>
+<text x="396.2" y="586.7" class="sf_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> تعليم</text>
+<text x="63.4" y="630.2" dx="0,0,-.1,0,-.1,0,-.1,.1" class="s5_1">Telephon </text>
+<text x="63.4" y="651.6" dx="0,.1,-.1,-.1,-.1" class="s5_1">e No. </text>
+<text x="177.2" y="630.2" dx="0,.1,-.1,-.1,-.1" class="s5_1">+2519 </text>
+</g>
+<path fill-rule="evenodd" d="M140.1,685.1H372.5V656.8H140.1v28.3Z" class="g0_1"/>
+<g clip-path="url(#c0_1)">
+<text x="140.3" y="679.4" dx="0,-.1,0,0,.1,0,-.1,0,-.1,0,0,0,0,-.1,0" class="s1_1">Work experience </text>
+<text x="63.4" y="703.1" dx="0,-.1,-.1,0,0,-.1,.3,-.1,-.1,.1" class="s5_1">Number of </text>
+<text x="63.4" y="724.5" dx="0,0,-.1,0,0,.2" class="s5_1">years </text>
+<text x="228.1" y="706.8" dx="0,0,0,0,0,.1,0,0,0,-.1" class="sg_1">FIRST TIME </text>
+<text x="402.4" y="703.1" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> مدت</text>
+<text x="385.8" y="724.5" class="sc_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">ين</text>
+<text x="409.7" y="724.5" class="sd_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> سين</text>
+<text x="63.4" y="746.6" dx="0,0,-.1,-.1,-.1,.1,0,.1" class="s5_1">Country </text>
+<text x="389.6" y="746.6" class="sa_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> الدولة</text>
+<text x="189.8" y="786.5" dx="0,0,-.1,0,0,0,-.1,0,.1,0,0,0,0,0" class="s0_1">Language Skill </text>
+<text x="63.4" y="809.3" class="s5_1">Arabic </text>
+<text x="382.4" y="809.3" class="sa_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> العربية</text>
+<text x="63.4" y="842.9" dx="0,0,-.1,0,0,0,-.1,.2" class="s5_1">English </text>
+<text x="215.4" y="842.9" dx="0,-.1,0,-.1,-.1,.1" class="s5_1">Little </text>
+<text x="358.4" y="842.9" class="s5_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">زية</text>
+<text x="387.9" y="842.9" class="sf_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">نجلي</text>
+<text x="422.8" y="842.9" class="s5_1"></text>
+<text x="436.4" y="842.9" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+</g>
+<path fill-rule="evenodd" d="M63.3,886.5H293.7V858.2H63.3v28.3Z" class="g0_1"/>
+<text clip-path="url(#c0_1)" x="63.4" y="880.8" dx="0,0,0,0,0,0,-.1,0,0,0,.1,-.1,0,0,0,-.1" class="s1_1">House hold work </text>
+<path fill-rule="evenodd" d="M63.3,915.1H215V886.6H63.3v28.5Z" class="g0_1"/>
+<g clip-path="url(#c0_1)">
+<text x="63.4" y="909.3" dx="0,0,-.2,.1,0,0,-.1,0,0,-.1" class="s1_1">experience </text>
+<text x="63.4" y="932.9" dx="0,0,0,-.1,0,-.1,0,-.1,.3" class="s5_1">Cleaning </text>
+<text x="238.8" y="932.9" class="s6_1">Yes </text>
+<text x="367.4" y="932.9" class="s7_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> التنظيف</text>
+<text x="63.4" y="955" dx="0,0,-.1,-.1,0,0,-.1,.3" class="s5_1">Cooking </text>
+<text x="238.8" y="955" class="s6_1">Yes </text>
+<text x="391.1" y="955" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> الطبخ</text>
+<text x="63.4" y="977.2" dx="0,-.1,0,-.1,-.1,0,0,.3" class="s5_1">Laundry </text>
+<text x="238.8" y="977.2" class="s6_1">Yes </text>
+<text x="369.3" y="977.2" class="sb_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">تغسيل</text>
+<text x="429.6" y="977.2" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ال</text>
+<text x="63.4" y="999.3" dx="0,0,0,-.1,-.1,0,-.1" class="s5_1">Ironing </text>
+<text x="238.8" y="999.3" class="s6_1">Yes </text>
+<text x="390.7" y="999.3" class="s9_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> الكوي</text>
+<text x="63.1" y="1021.5" dx="0,-.1,0,0,.1" class="s5_1">Baby </text>
+<text x="63.1" y="1042.9" dx="0,-.1,0,-.1,-.1,.1,-.1" class="s5_1">sitting </text>
+<text x="238.8" y="1021.5" class="s6_1">Yes </text>
+<text x="386.8" y="1021.5" class="sh_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">لعناية</text>
+<text x="436.4" y="1021.5" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+<text x="369.7" y="1042.9" class="si_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">طفال</text>
+<text x="422.9" y="1042.9" class="s5_1"></text>
+<text x="436.5" y="1042.9" class="s8_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ا</text>
+<text x="590.9" y="1027.1" dx="0,-.2,0,0,0,0,-.1" class="s1_1">Remarks </text>
+<text x="63.4" y="1065" dx="0,0,0,0,.1" class="s5_1">Care </text>
+<text x="63.4" y="1086.4" dx="0,0,0,0,0,-.1,.2" class="s5_1">giving </text>
+<text x="238.8" y="1065" class="s6_1">Yes </text>
+<text x="390.3" y="1065" class="sh_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> تقديم</text>
+<text x="380.7" y="1086.4" class="sj_1" direction="rtl" unicode-bidi="bidi-override" text-anchor="end"> ﺍلرعاية</text>
+<text x="458.9" y="1065.8" dx="0,0,-.1,.1,0,0,0,0,0,0,0,0,-.1,0,0,0,0,-.1,.1,.1,0,-.1,0,-.1,-.1,0,-.1,.1,-.1,0,.2,0,-.1,.1,0,-.1,0,-.1,0,0,0,-.1,.1,-.1,0,.1" class="sk_1">She Has a very good experience in every house </text>
+<text x="458.9" y="1088.2" dx="0,-.1,.1,-.1,.1,0,-.1,.1,-.1" class="sk_1">hold work </text>
+</g>
+
+</g>
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: Carlito-Bold_s;
+	src: url("fonts/Carlito-Bold_s.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i;
+	src: url("fonts/DejaVuSans-Bold_i.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_10;
+	src: url("fonts/DejaVuSans-Bold_i_10.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_11;
+	src: url("fonts/DejaVuSans-Bold_i_11.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_1;
+	src: url("fonts/DejaVuSans-Bold_i_1.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_2;
+	src: url("fonts/DejaVuSans-Bold_i_2.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_3;
+	src: url("fonts/DejaVuSans-Bold_i_3.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_4;
+	src: url("fonts/DejaVuSans-Bold_i_4.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_5;
+	src: url("fonts/DejaVuSans-Bold_i_5.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_6;
+	src: url("fonts/DejaVuSans-Bold_i_6.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_7;
+	src: url("fonts/DejaVuSans-Bold_i_7.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_8;
+	src: url("fonts/DejaVuSans-Bold_i_8.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold_i_9;
+	src: url("fonts/DejaVuSans-Bold_i_9.woff") format("woff");
+}
+
+@font-face {
+	font-family: DejaVuSans_d;
+	src: url("fonts/DejaVuSans_d.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
