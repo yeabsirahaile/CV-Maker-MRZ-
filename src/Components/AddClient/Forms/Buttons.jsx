@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useFormContext } from "../../../context/FormContext";
 
 export default function Buttons() {
-  const form = useFormContext();
+  const { form } = useFormContext();
 
   function onSubmit(values) {
     // Do something with the form values.

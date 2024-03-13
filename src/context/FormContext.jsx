@@ -1,6 +1,6 @@
 // FormContext.js
 import { zodResolver } from "@hookform/resolvers/zod";
-import { createContext, useContext } from "react";
+import { createContext, useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -23,10 +23,12 @@ export const useFormContext = () => {
 // });
 
 export const FormProvider = ({ children }) => {
+  const [scannedData, setScannedData] = useState(`{ "initial Value": "null" }`);
+
   const form = useForm({
     // resolver: zodResolver(formSchema),
     defaultValues: {
-      fullName: "",
+      fullName: "abebe",
       contract: "",
       position: " ",
       salary: "",
@@ -68,5 +70,9 @@ export const FormProvider = ({ children }) => {
     console.log(values);
   }
 
-  return <FormContext.Provider value={form}>{children}</FormContext.Provider>;
+  return (
+    <FormContext.Provider value={{ form, scannedData, setScannedData }}>
+      {children}
+    </FormContext.Provider>
+  );
 };

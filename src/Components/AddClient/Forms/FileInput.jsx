@@ -4,7 +4,7 @@ import { Label } from "@/components/ui/label";
 import { useFormContext } from "../../../context/FormContext";
 
 export function FileInput() {
-  const form = useFormContext();
+  const { form } = useFormContext();
 
   const [fileNames, setFileNames] = useState({
     passport: "",

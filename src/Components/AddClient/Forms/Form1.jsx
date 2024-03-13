@@ -29,13 +29,16 @@ const formSchema = z.object({
 
 export default function Form1() {
   // 1. Define your form.
-  const form = useFormContext();
+  const { form } = useFormContext();
   // 2. Define a submit handler.
   function onSubmit(values) {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
     console.log(values);
   }
+
+  const value = form.getValues("fullName");
+  console.log(value);
 
   return (
     <Form {...form}>
@@ -56,9 +59,12 @@ export default function Form1() {
                   </FormLabel>
                   <FormControl>
                     <Input
+                      nam={value}
+                      value={value}
                       id="fullname"
                       placeholder="Enter Full Name"
                       className="border-2 border-blue-200 rounded-md w-full p-2 h-7"
+                      type={"text"}
                       {...field}
                     />
                   </FormControl>
