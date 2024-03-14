@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { FormProvider, useFormContext } from "../../../context/FormContext";
 import ModalBtn from "../../mrz/ModalBtn";
 import Buttons from "./Buttons";
@@ -12,71 +12,22 @@ import Remark from "./Remark";
 
 const Forms = () => {
   const { form, scannedData } = useFormContext();
+  const [forceUpdate, setForceUpdate] = useState(false);
 
-  const autoAssignValues = (
-    firstName,
-    lastName,
-    sex,
-    nationality,
-    expirationDate,
-    documentNumber,
-    birthDate
-  ) => {
-    form.setValue("fullName", `${firstName} ${lastName}`);
-    form.setValue("sex", `${sex}`);
-    form.setValue(
-      "personalInformation.passportDetails.nationality",
-      `${nationality === "ETH" ? "ETHIOPIAN" : null}`
-    );
-    form.setValue(
-      "personalInformation.passportDetails.passportNo",
-      `${documentNumber}`
-    );
-    // form.setFieldValue(
-    //   "personalInformation.passportDetails.dateOfIssue",
-    //   issuedDayCalculator(expirationDate)
-    // );
-    // form.setFieldValue(
-    //   "personalInformation.passportDetails.dateOfExpiry",
-    //   dayCalculator(expirationDate)
-    // );
-    // form.setFieldValue(
-    //   "personalInformation.passportDetails.birthDay",
-    //   dayCalculator(birthDate)
-    // );
-    // form.setFieldValue(
-    //   "personalInformation.passportDetails.age",
-    //   calculateAge(birthDate)
-    // );
-  };
+  useEffect(() => {
+    // This effect will trigger whenever scannedData changes
+    // Set forceUpdate to true to force rerender of the component
+    setForceUpdate(true);
+  }, [scannedData]);
 
-  // updating the coming data from the scanned passoprrt
-  useEffect(
-    function () {
-      const {
-        firstName,
-        lastName,
-        documentNumber,
-        nationality,
-        birthDate,
-        sex,
-        expirationDate,
-      } = scannedData;
+  useEffect(() => {
+    if (forceUpdate) {
+      // Reset forceUpdate to false after rendering
+      setForceUpdate(false);
+    }
+  }, [forceUpdate]);
 
-      if (firstName == null) return;
-      autoAssignValues(
-        firstName,
-        lastName,
-        sex,
-        nationality,
-        expirationDate,
-        documentNumber,
-        birthDate
-      );
-    },
-    [scannedData]
-  );
-
+  // Return the JSX of your component
   return (
     <>
       <div className=" p-0  ">

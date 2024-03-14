@@ -5,11 +5,11 @@ import { useFormContext } from "../../context/FormContext";
 // import { Box, Button, Loader, LoadingOverlay } from "@mantine/core";
 
 const Doc = () => {
+  const { form } = useFormContext();
+
   const ref1 = useRef(null);
   const ref2 = useRef(null);
   const ref3 = useRef(null);
-
-  const form = useFormContext();
 
   const [isLoading, setIsLoading] = useState(true);
 
@@ -19,46 +19,52 @@ const Doc = () => {
   // const photoFullFile = form.watch("photofull");
   // const passportFile = form.watch("passport");
   // const photo3by4File = form.watch("photo3by4");
-
-  // const imageUrl = URL.createObjectURL(photo3by4File);
-  // const image3by44 = URL.createObjectURL(passportFile);
-  // const imageFulll = URL.createObjectURL(photoFullFile);
-  // const medicalImagee = URL.createObjectURL(medicalImageFile);
+  console.log(form.getValues("passport"));
+  const imageUrl = URL.createObjectURL(form.getValues("passport"));
+  const image3by44 = URL.createObjectURL(form.getValues("photo3by4"));
+  const imageFulll = URL.createObjectURL(form.getValues("photofull"));
+  const medicalImagee = URL.createObjectURL(form.getValues("medicalimage"));
 
   const Data = {
-    fullName: "John Doe",
-    contr: "Contractor XYZ",
-    position: "Software Engineer",
-    salary: "$80,000",
-    sex: "Male",
+    fullName: form.getValues("fullName"),
+    contr: form.getValues("contract"),
+    position: form.getValues("position"),
+    salary: form.getValues("salary"),
+    sex: form.getValues("sex"),
     personalInformation: {
       passportDetails: {
-        nationality: "American",
-        passportNo: "A123456",
-        religion: "Christian",
-        dateOfIssue: "2023-01-01",
-        age: 28,
-        dateOfExpiry: "04-may-06",
-        birthDay: "04-may-06",
-        birthPlace: "New York, USA",
-        civilStatus: "Single",
-        height: "5'10\"",
-        weight: "160 lbs",
-        education: "Computer Science",
-        telephoneNo: "+1 (555) 123-4567",
+        nationality: form.getValues("nationality"),
+        passportNo: form.getValues("passportNo"),
+        religion: form.getValues("religion"),
+        dateOfIssue: form.getValues("dateOfIssue"),
+        age: form.getValues("age"),
+        dateOfExpiry: form.getValues("dateOfExpiry"),
+        birthDay: form.getValues("birthDay"),
+        birthPlace: form.getValues("birthPlace"),
+        civilStatus: form.getValues("civilStatus"),
+        height: form.getValues("height"),
+        weight: form.getValues("weight"),
+        education: form.getValues("education"),
+        telephoneNo: form.getValues("telephoneNo"),
       },
-      language: { arabic: "Basic", english: "Fluent" },
-      workExperience: { numberOfYears: 5, country: "United States" },
+      language: {
+        arabic: form.getValues("arabic"),
+        english: form.getValues("english"),
+      },
+      workExperience: {
+        numberOfYears: form.getValues("numberOfYears"),
+        country: form.getValues("country"),
+      },
       householdWorkExperience: {
-        careGiving: true,
-        cleaning: true,
-        cooking: true,
-        laundry: false,
-        ironing: false,
-        babySitting: true,
+        careGiving: form.getValues("careGiving"),
+        cleaning: form.getValues("cleaning"),
+        cooking: form.getValues("cooking"),
+        laundry: form.getValues("laundry"),
+        ironing: form.getValues("ironing"),
+        babySitting: form.getValues("babySitting"),
       },
     },
-    remarks: "Excellent employee with strong technical skills.",
+    remarks: form.getValues("remarks"),
   };
 
   // You can now destructure the data as you have done in your code
@@ -240,8 +246,7 @@ const Doc = () => {
                     }}
                   >
                     <img
-                      // src={image3by44}
-                      src="./pics.jpg"
+                      src={image3by44}
                       alt="Selected"
                       width={170}
                       height={210}
@@ -1178,8 +1183,7 @@ const Doc = () => {
                     </strong>
 
                     <img
-                      // src={imageFulll}
-                      src="./pics.jpg"
+                      src={imageFulll}
                       alt="Selected"
                       width={336}
                       height={500}
@@ -2646,13 +2650,7 @@ const Doc = () => {
             float: "left",
           }}
         >
-          <img
-            // src={imageUrl}
-            src="./pics.jpg"
-            alt="Selected"
-            width={550}
-            height={409}
-          />
+          <img src={imageUrl} alt="Selected" width={550} height={409} />
         </div>
 
         <div
@@ -2665,13 +2663,7 @@ const Doc = () => {
             float: "left",
           }}
         >
-          <img
-            // src={medicalImagee}
-            src="./pics.jpg"
-            alt="Selected"
-            width={550}
-            height={409}
-          />
+          <img src={medicalImagee} alt="Selected" width={550} height={409} />
         </div>
       </div>
 

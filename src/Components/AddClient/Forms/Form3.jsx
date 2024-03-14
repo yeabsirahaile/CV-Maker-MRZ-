@@ -19,6 +19,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { useFormContext } from "../../../context/FormContext";
 
 const formSchema = z.object({
   username: z.string().min(2, {
@@ -27,18 +28,19 @@ const formSchema = z.object({
 });
 
 export default function Form3() {
+  const { form } = useFormContext();
   // 1. Define your form.
-  const form = useForm({
-    resolver: zodResolver(formSchema),
-    defaultValues: {
-      nationality: "",
-      passportno: "",
-      dateofissue: "",
-      dateofexpiry: "",
-      birthdate: "",
-      age: "",
-    },
-  });
+  // const form = useForm({
+  //   resolver: zodResolver(formSchema),
+  //   defaultValues: {
+  //     nationality: "",
+  //     passportno: "",
+  //     dateofissue: "",
+  //     dateofexpiry: "",
+  //     birthdate: "",
+  //     age: "",
+  //   },
+  // });
 
   // 2. Define a submit handler.
   function onSubmit(values) {
@@ -66,6 +68,7 @@ export default function Form3() {
                   </FormLabel>
                   <FormControl>
                     <Input
+                      nam={form.getValues("nationality")}
                       id="nationality"
                       placeholder="Enter Nationality"
                       className="border-2 border-blue-200 rounded-md w-full p-2 h-7"
@@ -87,6 +90,7 @@ export default function Form3() {
                   </FormLabel>
                   <FormControl>
                     <Input
+                      nam={form.getValues("passportNo")}
                       id="passportno"
                       placeholder="Enter Passport Number"
                       className="border-2 border-blue-200 rounded-md w-full p-2 h-7"
@@ -107,6 +111,7 @@ export default function Form3() {
                   </FormLabel>
                   <FormControl>
                     <Input
+                      nam={form.getValues("dateOfIssue")}
                       id="dateofissue"
                       placeholder="Enter Data of issue"
                       className="border-2 border-blue-200 rounded-md w-full p-2 h-7"
@@ -131,6 +136,7 @@ export default function Form3() {
                   </FormLabel>
                   <FormControl>
                     <Input
+                      nam={form.getValues("dateOfExpiry")}
                       id="dateofexpiry"
                       placeholder="Enter date of expiry"
                       className="border-2 border-blue-200 rounded-md w-full p-2 h-7"
@@ -151,6 +157,7 @@ export default function Form3() {
                   </FormLabel>
                   <FormControl>
                     <Input
+                      nam={form.getValues("birthDay")}
                       id="birthdate"
                       placeholder="Enter Birth date"
                       className="border-2 border-blue-200 rounded-md w-full p-2 h-7"
@@ -171,6 +178,7 @@ export default function Form3() {
                   </FormLabel>
                   <FormControl>
                     <Input
+                      nam={form.getValues("age")}
                       id="age"
                       placeholder="Enter Age"
                       className="border-2 border-blue-200 rounded-md w-full p-2 h-7"

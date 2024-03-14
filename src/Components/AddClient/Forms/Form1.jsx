@@ -37,8 +37,7 @@ export default function Form1() {
     console.log(values);
   }
 
-  const value = form.getValues("fullName");
-  console.log(value);
+  const fullName = form.getValues("fullName");
 
   return (
     <Form {...form}>
@@ -59,8 +58,7 @@ export default function Form1() {
                   </FormLabel>
                   <FormControl>
                     <Input
-                      nam={value}
-                      value={value}
+                      nam={fullName}
                       id="fullname"
                       placeholder="Enter Full Name"
                       className="border-2 border-blue-200 rounded-md w-full p-2 h-7"
@@ -184,11 +182,11 @@ export default function Form1() {
           <div className="space-y-4">
             <FormField
               control={form.control}
-              name="relegion"
+              name="religion"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel htmlFor="relegion" className="block">
-                    Relegion
+                  <FormLabel htmlFor="religion" className="block">
+                    Religion
                   </FormLabel>
                   <Select
                     onValueChange={field.onChange}
@@ -196,7 +194,7 @@ export default function Form1() {
                   >
                     <FormControl>
                       <SelectTrigger className="border-2 border-blue-200 rounded-md w-full p-2 h-7">
-                        <SelectValue placeholder="Select Relegion" />
+                        <SelectValue placeholder="Select Religion" />
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
@@ -210,10 +208,10 @@ export default function Form1() {
 
             <FormField
               control={form.control}
-              name="civilstatus"
+              name="civilStatus"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel htmlFor="civilstatus" className="block">
+                  <FormLabel htmlFor="civilStatus" className="block">
                     Civil Status
                   </FormLabel>
                   <Select
