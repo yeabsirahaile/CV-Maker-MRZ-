@@ -19,11 +19,28 @@ const Doc = () => {
   // const photoFullFile = form.watch("photofull");
   // const passportFile = form.watch("passport");
   // const photo3by4File = form.watch("photo3by4");
-  console.log(form.getValues("passport"));
-  const imageUrl = URL.createObjectURL(form.getValues("passport"));
-  const image3by44 = URL.createObjectURL(form.getValues("photo3by4"));
-  const imageFulll = URL.createObjectURL(form.getValues("photofull"));
-  const medicalImagee = URL.createObjectURL(form.getValues("medicalimage"));
+  // Assuming your default images are stored in the public directory
+  const defaultImageUrl = "/No_image_available.png";
+
+  // Getting form values
+  const passportValue = form.getValues("passport");
+  const photo3by4Value = form.getValues("photo3by4");
+  const photoFullValue = form.getValues("photofull");
+  const medicalImageValue = form.getValues("medicalimage");
+
+  // Creating object URLs with default image
+  const imageUrl = passportValue
+    ? URL.createObjectURL(passportValue)
+    : defaultImageUrl;
+  const image3by44 = photo3by4Value
+    ? URL.createObjectURL(photo3by4Value)
+    : defaultImageUrl;
+  const imageFulll = photoFullValue
+    ? URL.createObjectURL(photoFullValue)
+    : defaultImageUrl;
+  const medicalImagee = medicalImageValue
+    ? URL.createObjectURL(medicalImageValue)
+    : defaultImageUrl;
 
   const Data = {
     fullName: form.getValues("fullName"),

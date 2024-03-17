@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="bg-blue-500 text-white h-screen w-48 p-4">
-      <h1 className="text-2xl font-semibold mb-6">Sidebar</h1>
+      <h1 className="text-2xl font-semibold mb-6">MRZ CV Maker</h1>
       <ul>
         <li className="mb-2">
           <NavLink to="/" className="hover:text-gray-300">

@@ -15,18 +15,27 @@ export default function ModalBtn({ onSetContent }) {
   return (
     <>
       {opened && (
-        <div className="modal z-40 bg-green-500">
+        <div className="modal z-40  ">
           <div className="modal-content">
             <span className="close" onClick={closeModal}>
               &times;
             </span>
-            <h2>passport</h2>
+            <h2>
+              Load the passport and postion the mrz scanned with the box
+              provided below. position only the machine readable zone of the
+              passport
+            </h2>
             <Display onClose={closeModal} onSetContent={onSetContent} />
           </div>
         </div>
       )}
 
-      <button onClick={openModal}>Automatic Mode</button>
+      <button
+        className=" mx-14 bg-blue-500 px-2 py-1 text-white rounded-md"
+        onClick={openModal}
+      >
+        Automatic Mode
+      </button>
     </>
   );
 }

@@ -30,10 +30,10 @@ const Forms = () => {
   // Return the JSX of your component
   return (
     <>
-      <div className=" p-0  ">
+      <div className="  ">
         <ModalBtn />
       </div>
-      <div className="flex gap-x-20 gap-y-10  mt-10 mx-14">
+      <div className="flex gap-x-20 gap-y-10  mt-5 mx-14">
         <div className="flex  h-50 w-2/4 rounded-md shadow-lg">
           <Form1 />
         </div>

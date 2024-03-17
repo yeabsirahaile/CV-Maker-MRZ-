@@ -10,23 +10,23 @@ export const useFormContext = () => {
   return useContext(FormContext);
 };
 
-// const formSchema = z.object({
-//   fullname: z.string().min(2, {
-//     message: "Full name must be at least 2 characters.",
-//   }),
-//   contract: z.string().min(2, {
-//     message: "Full name must be at least 2 characters.",
-//   }),
-//   position: z.string().min(2, {
-//     message: "Full name must be at least 2 characters.",
-//   }),
-// });
+const formSchema = z.object({
+  fullname: z.string().min(2, {
+    message: "Full name must be at least 2 characters.",
+  }),
+  // contract: z.number().min(1, {
+  //   message: "Contract should be in number",
+  // }),
+  position: z.string().min(2, {
+    message: "Full name must be at least 2 characters.",
+  }),
+});
 
 export const FormProvider = ({ children }) => {
   const [scannedData, setScannedData] = useState(`{ "initial Value": "null" }`);
   console.log(scannedData);
   const form = useForm({
-    // resolver: zodResolver(formSchema),
+    resolver: zodResolver(formSchema),
     defaultValues: {
       fullName: "",
       contract: "",

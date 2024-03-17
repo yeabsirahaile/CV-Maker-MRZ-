@@ -5,7 +5,7 @@ export default function Remark() {
       <textarea
         className="border-2 border-blue-200 rounded-md name="
         id="remark"
-        cols="10"
+        cols="15"
         rows="3"
       ></textarea>
     </div>

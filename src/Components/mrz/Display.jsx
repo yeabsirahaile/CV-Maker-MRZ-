@@ -146,7 +146,7 @@ function Display({ onClose }) {
         <textarea id="document-check" rows={1} defaultValue={""} />
       </div>
       <input type="file" id="fileInput" name="fileInput" accept="image/*" />
-      <span id="progress" />
+      {/* <span id="progress" /> */}
       <button className="button1" id="scan" title="Scan">
         ✔
       </button>

@@ -15,8 +15,11 @@ export default function Buttons() {
   }
 
   return (
-    <Button type="submit" onClick={form.handleSubmit(onSubmit)}>
-      Submit
-    </Button>
+    <div>
+      <Button type="submit" onClick={form.handleSubmit(onSubmit)}>
+        Submit
+      </Button>
+      <Button onClick={() => form.reset()}>Reset</Button>
+    </div>
   );
 }

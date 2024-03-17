@@ -1,16 +1,19 @@
 import { useState } from "react";
+import { useFormContext } from "../../../context/FormContext";
 
 export default function Checkboxs() {
+  const { form } = useFormContext();
   const [checkboxValues, setCheckboxValues] = useState({
-    careGiving: false,
-    cleaning: false,
-    cooking: false,
-    laundry: false,
-    ironing: false,
-    babySitting: false,
+    careGiving: form.getValues("careGiving"),
+    cleaning: form.getValues("cleaning"),
+    cooking: form.getValues("cooking"),
+    laundry: form.getValues("laundry"),
+    ironing: form.getValues("ironing"),
+    babySitting: form.getValues("babySitting"),
   });
 
   const handleCheckboxChange = (name) => {
+    form.setValue(name, !form.getValues(name));
     setCheckboxValues((prevValues) => ({
       ...prevValues,
       [name]: !prevValues[name],
