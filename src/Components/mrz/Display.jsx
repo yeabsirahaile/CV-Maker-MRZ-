@@ -147,11 +147,12 @@ function Display({ onClose }) {
       </div>
       <input type="file" id="fileInput" name="fileInput" accept="image/*" />
       {/* <span id="progress" /> */}
-      <button className="button1" id="scan" title="Scan">
-        ✔
+      <button className="button2" id="rotate" title="Rotate">
+        ↶ Rotate
       </button>
-      <button className="button1" id="rotate" title="Rotate">
-        ↶
+
+      <button className="button1" id="scan" title="Scan">
+        ✓ Scan
       </button>
     </div>
   );

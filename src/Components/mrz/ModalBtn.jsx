@@ -17,7 +17,10 @@ export default function ModalBtn({ onSetContent }) {
       {opened && (
         <div className="modal z-40  ">
           <div className="modal-content">
-            <span className="close" onClick={closeModal}>
+            <span
+              className="close cursor-pointer text-3xl"
+              onClick={closeModal}
+            >
               &times;
             </span>
             <h2>
