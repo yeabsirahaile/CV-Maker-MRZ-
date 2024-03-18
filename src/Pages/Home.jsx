@@ -13,7 +13,7 @@ function Home() {
               Simplifies CV creation for foreign employment agencies
             </li>
             <li className="text-lg mb-4">
-              Automatic passport scannbg-gray-50ing for data extraction
+              Automatic passport scanning for data extraction
             </li>
             <li className="text-lg mb-4">
               Customizable templates for personalized CVs
