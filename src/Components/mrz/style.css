@@ -25,7 +25,7 @@
 } */
 
 .croppie-container .cr-viewport {
-  box-shadow: 0 0 2000px 2000px rgba(173, 173, 173, 0.5);
+  box-shadow: 0 0 2000px 2000px #81c0ff98;
 }
 
 #document-display {

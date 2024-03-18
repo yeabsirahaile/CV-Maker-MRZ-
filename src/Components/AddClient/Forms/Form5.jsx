@@ -24,7 +24,7 @@ import { useFormContext } from "../../../context/FormContext";
 export default function Form5() {
   // 1. Define your form.
 
-  const {form} = useFormContext();
+  const { form } = useFormContext();
   // 2. Define a submit handler.
   function onSubmit(values) {
     // Do something with the form values.
@@ -45,7 +45,7 @@ export default function Form5() {
               control={form.control}
               name="arabic"
               render={({ field }) => (
-                <FormItem>
+                <FormItem className={`text-blue-600`}>
                   <FormLabel htmlFor="arabic" className="block">
                     Arabic
                   </FormLabel>
@@ -71,7 +71,7 @@ export default function Form5() {
               control={form.control}
               name="english"
               render={({ field }) => (
-                <FormItem>
+                <FormItem className={`text-blue-600`}>
                   <FormLabel htmlFor="english" className="block">
                     English
                   </FormLabel>

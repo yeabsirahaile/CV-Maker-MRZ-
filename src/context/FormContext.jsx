@@ -11,9 +11,9 @@ export const useFormContext = () => {
 };
 
 const formSchema = z.object({
-  fullname: z.string().min(2, {
-    message: "Full name must be at least 2 characters.",
-  }),
+  // fullname: z.string().min(2, {
+  //   message: "Full name must be at least 2 characters.",
+  // }),
   // contract: z.number().min(1, {
   //   message: "Contract should be in number",
   // }),
@@ -60,7 +60,7 @@ export const FormProvider = ({ children }) => {
       ironing: true,
       babySitting: true,
 
-      remarks: "Excellent worker with strong technical skills.",
+      remark: "Excellent worker with strong technical skills.",
 
       passport: "",
       photo3by4: "",

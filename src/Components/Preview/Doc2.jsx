@@ -4,7 +4,7 @@ import html2canvas from "html2canvas";
 import { useFormContext } from "../../context/FormContext";
 // import { Box, Button, Loader, LoadingOverlay } from "@mantine/core";
 
-const Doc = ({ downloadClicked }) => {
+const Doc2 = ({ downloadClicked }) => {
   const { form } = useFormContext();
 
   const ref1 = useRef(null);
@@ -120,7 +120,6 @@ const Doc = ({ downloadClicked }) => {
     },
     remarks,
   } = Data;
-  console.log(fullName);
 
   useEffect(() => {
     if (downloadClicked) {
@@ -212,7 +211,7 @@ const Doc = ({ downloadClicked }) => {
             }}
           >
             <span style={{ fontFamily: "Cambria", color: "#446b3d" }}>
-              EHA AGENCY
+              Abe AGENCY
             </span>
           </h1>
           <h1
@@ -615,7 +614,8 @@ const Doc = ({ downloadClicked }) => {
                     paddingRight: "5.03pt",
                     paddingLeft: "4.9pt",
                     verticalAlign: "top",
-                    backgroundColor: "#83c78e",
+                    color: "#fff",
+                    backgroundColor: "#ff0000",
                   }}
                 >
                   <p
@@ -627,7 +627,7 @@ const Doc = ({ downloadClicked }) => {
                     }}
                   >
                     <strong>
-                      <span style={{ color: "#31849b" }}>
+                      <span style={{ color: "#fff" }}>
                         Personal Information
                       </span>
                     </strong>
@@ -641,7 +641,7 @@ const Doc = ({ downloadClicked }) => {
                     paddingRight: "5.03pt",
                     paddingLeft: "5.03pt",
                     verticalAlign: "top",
-                    backgroundColor: "#83c78e",
+                    backgroundColor: "#ff0000",
                   }}
                 >
                   <p
@@ -652,7 +652,7 @@ const Doc = ({ downloadClicked }) => {
                     }}
                   >
                     <strong>
-                      <span style={{ color: "#31849b" }}>Passport details</span>
+                      <span style={{ color: "#fff" }}>Passport details</span>
                     </strong>
                   </p>
                 </td>
@@ -2693,4 +2693,4 @@ const Doc = ({ downloadClicked }) => {
   );
 };
 
-export default Doc;
+export default Doc2;

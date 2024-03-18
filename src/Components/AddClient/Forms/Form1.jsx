@@ -22,7 +22,7 @@ import {
 import { useFormContext } from "../../../context/FormContext";
 
 const formSchema = z.object({
-  fullname: z.string().min(2, {
+  fullName: z.string().min(2, {
     message: "Full name must be at least 2 characters.",
   }),
 });
@@ -50,19 +50,18 @@ export default function Form1() {
           <div className="col-span-2">
             <FormField
               control={form.control}
-              name="fullname"
+              name="fullName"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel htmlFor="fullname" className="block mb-1">
+                  <FormLabel htmlFor="fullName" className="block mb-1">
                     Full Name
                   </FormLabel>
                   <FormControl>
                     <Input
                       nam={fullName}
-                      id="fullname"
+                      id="fullName"
                       placeholder="Enter Full Name"
                       className="border-2 border-blue-200 rounded-md w-full p-2 h-7"
-                      type={"text"}
                       {...field}
                     />
                   </FormControl>
@@ -176,6 +175,26 @@ export default function Form1() {
                 </FormItem>
               )}
             />
+            <FormField
+              control={form.control}
+              name="remark"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel htmlFor="remark" className="block">
+                    Remark
+                  </FormLabel>
+                  <FormControl>
+                    <Input
+                      id="remark"
+                      placeholder="Write remark"
+                      className="border-2 border-blue-200 rounded-md w-full p-2 h-7"
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
 
             {/* ... (repeat for other input fields) ... */}
           </div>
@@ -184,7 +203,7 @@ export default function Form1() {
               control={form.control}
               name="religion"
               render={({ field }) => (
-                <FormItem>
+                <FormItem className={`text-blue-600`}>
                   <FormLabel htmlFor="religion" className="block">
                     Religion
                   </FormLabel>
@@ -210,7 +229,7 @@ export default function Form1() {
               control={form.control}
               name="civilStatus"
               render={({ field }) => (
-                <FormItem>
+                <FormItem className={`text-blue-600`}>
                   <FormLabel htmlFor="civilStatus" className="block">
                     Civil Status
                   </FormLabel>

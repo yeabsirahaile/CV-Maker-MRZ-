@@ -34,39 +34,39 @@ const Forms = () => {
         <ModalBtn />
       </div>
       <div className="flex gap-x-20 gap-y-10  mt-5 mx-14">
-        <div className="flex  h-50 w-2/4 rounded-md shadow-lg">
+        <div className="flex  h-50 w-2/4 rounded-md shadow-lg shadow-blue-200 ">
           <Form1 />
         </div>
-        <div className="flex flex-col h-50 w-2/4 rounded-md  gap-y-4">
-          <div className="flex h-28  drop-shadow shadow-lg justify-center bg-blue-50 ">
+        <div className="flex flex-col h-50 w-2/4 rounded-md  gap-y-6">
+          <div className="flex h-28 shadow-lg shadow-blue-200 justify-center bg-blue-50 ">
             <FileInput />
           </div>
-          <div className="flex-48   drop-shadow shadow-lg">
+          <div className="flex-48  shadow-lg shadow-blue-200">
             <Form3 />
           </div>
 
           <div className="flex flex-row   rounded-md  gap-x-6">
-            <div className="flex w-2/4 h-28 drop-shadow shadow-lg">
+            <div className="flex w-2/4 h-28 shadow-lg shadow-blue-200">
               <Form4 />
             </div>
-            <div className="flex-grow h-28  drop-shadow shadow-lg ">
+            <div className="flex-grow h-28  shadow-lg shadow-blue-200 ">
               <Form5 />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="flex gap-x-20 gap-y-10  mt-10 mx-14">
+      <div className="flex gap-x-20 gap-y-10  mt-10 mx-10">
         <div className="flex flex-row  h-50 w-2/4 rounded-md  gap-y-4 gap-x-4">
-          <div className="flex w-2/4 h-28 drop-shadow shadow-lg">
+          <div className="flex w-full h-28 shadow-lg shadow-blue-200">
             <Checkboxs />
           </div>
-          <div className="flex-grow h-28  drop-shadow shadow-lg ">
+          {/* <div className="flex-grow h-28 w-2/4  shadow-lg shadow-blue-200 ">
             <Remark />
-          </div>
+          </div> */}
         </div>
 
-        <div className="flex  h-50 w-2/4 rounded-md shadow-lg">
+        <div className="flex  h-50 w-2/4 rounded-md">
           <Buttons />
         </div>
       </div>

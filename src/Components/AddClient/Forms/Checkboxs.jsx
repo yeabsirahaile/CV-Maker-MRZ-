@@ -20,8 +20,8 @@ export default function Checkboxs() {
     }));
   };
   return (
-    <div className="bg-blue-50 rounded-md container mx-auto  p-2 px-7 ">
-      <div className="grid grid-cols-2 gap-2 gap-x-2">
+    <div className="bg-blue-50 rounded-md container mx-auto  py-2 px-7 ">
+      <div className="grid grid-cols-2 gap-2 gap-x-2 w-full">
         <div className="flex items-center">
           <input
             type="checkbox"

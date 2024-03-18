@@ -15,11 +15,17 @@ export default function Buttons() {
   }
 
   return (
-    <div>
-      <Button type="submit" onClick={form.handleSubmit(onSubmit)}>
+    <div className=" flex gap-7">
+      <Button
+        className={`bg-blue-500`}
+        type="submit"
+        onClick={form.handleSubmit(onSubmit)}
+      >
         Submit
       </Button>
-      <Button onClick={() => form.reset()}>Reset</Button>
+      <Button className={`bg-blue-500`} onClick={() => form.reset()}>
+        Reset
+      </Button>
     </div>
   );
 }
