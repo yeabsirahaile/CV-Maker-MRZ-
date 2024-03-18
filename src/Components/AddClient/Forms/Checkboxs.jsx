@@ -20,15 +20,15 @@ export default function Checkboxs() {
     }));
   };
   return (
-    <div className="bg-blue-50 rounded-md container mx-auto  py-2 px-7 ">
-      <div className="grid grid-cols-2 gap-2 gap-x-2 w-full">
+    <div className="bg-blue-50 rounded-md container mx-auto  py-2 text-blue-800 px-7 ">
+      <div className="grid grid-cols-2 text-blue-800 gap-2 text-blue-800 gap-x-2 text-blue-800 w-full">
         <div className="flex items-center">
           <input
             type="checkbox"
             id="careGiving"
             checked={checkboxValues.careGiving}
             onChange={() => handleCheckboxChange("careGiving")}
-            className="mr-2"
+            className="mr-2 text-blue-800"
           />
           <label htmlFor="careGiving" className="mb-1">
             Care Giving
@@ -40,7 +40,7 @@ export default function Checkboxs() {
             id="cleaning"
             checked={checkboxValues.cleaning}
             onChange={() => handleCheckboxChange("cleaning")}
-            className="mr-2"
+            className="mr-2 text-blue-800"
           />
           <label htmlFor="cleaning" className="mb-1">
             Cleaning
@@ -52,7 +52,7 @@ export default function Checkboxs() {
             id="cooking"
             checked={checkboxValues.cooking}
             onChange={() => handleCheckboxChange("cooking")}
-            className="mr-2"
+            className="mr-2 text-blue-800"
           />
           <label htmlFor="cooking" className="mb-1">
             Cooking
@@ -64,7 +64,7 @@ export default function Checkboxs() {
             id="laundry"
             checked={checkboxValues.laundry}
             onChange={() => handleCheckboxChange("laundry")}
-            className="mr-2"
+            className="mr-2 text-blue-800"
           />
           <label htmlFor="laundry" className="mb-1">
             Laundry
@@ -76,7 +76,7 @@ export default function Checkboxs() {
             id="ironing"
             checked={checkboxValues.ironing}
             onChange={() => handleCheckboxChange("ironing")}
-            className="mr-2"
+            className="mr-2 text-blue-800"
           />
           <label htmlFor="ironing" className="mb-1">
             Ironing
@@ -88,7 +88,7 @@ export default function Checkboxs() {
             id="babySitting"
             checked={checkboxValues.babySitting}
             onChange={() => handleCheckboxChange("babySitting")}
-            className="mr-2"
+            className="mr-2 text-blue-800"
           />
           <label htmlFor="babySitting" className="mb-1">
             Baby Sitting
