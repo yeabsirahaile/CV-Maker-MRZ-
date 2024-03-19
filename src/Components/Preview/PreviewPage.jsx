@@ -49,7 +49,7 @@ export default function PreviewPage() {
 
   return (
     <div className="flex flex-row">
-      <div className="w-2/4">
+      <div className="w-3/4">
         <div className="flex gap-10">
           <button
             className=" bg-blue-300 px-1 rounded-md text-md text-blue-900"
